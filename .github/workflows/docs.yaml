@@ -20,7 +20,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./dist
-          cname: genesis.warframestat.us
           force_orphan: true
-          user_name: 'Jimmy Bot'
-          user_email: 'translator@warframe.gg'
